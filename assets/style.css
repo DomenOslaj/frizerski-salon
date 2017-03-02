@@ -13,3 +13,11 @@
 .form-control {
   margin-bottom: 10px;
 }
+
+.navbar-brand {
+  margin-top: 5px;
+}
+
+.thead-header {
+  background-color: #c7c6c6;
+}
