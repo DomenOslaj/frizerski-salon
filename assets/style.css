@@ -21,3 +21,8 @@
 .thead-header {
   background-color: #c7c6c6;
 }
+
+.featurette-divider {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
