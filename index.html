@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/style.css">
+    <!--carousel-->
     <style>
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
@@ -34,7 +35,7 @@
 
                   <div class ="collapse navbar-collapse navHeaderCollapse">
                         <ul class="nav navbar-nav"> <!--napisi v headerju postavljeni sredinsko-->
-                              <li class="active"><a href="#">KAJ NUDIMO</a></li>
+                              <li class="active nav-active"><a href="#">KAJ NUDIMO</a></li>
                               <li><a href="#" class="nav-margin">NAROČI SE</a></li>
                               <li><a href="#"class="nav-margin">FAQ</a></li>
                               <li><a href="#" class="nav-margin">O NAS</a></li>
@@ -43,37 +44,42 @@
 
               </div>
 
-        </div>
+        </div> <!--close navbar default-->
 
         <!--carousel galerija-->
-        <br>
-          <div id="myCarousel" class="carousel-slide" data-ride="carousel">
 
-              <ol class="carousel-indicators">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators"> <!--okrogli indikatorji na sredini-->
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
               </ol>
 
               <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                      <img src="assets/img/lasje.jpg" alt="Frizer">
-                  </div>
+                    <div class="item active">
+                          <img src="assets/img/lasje5.jpg" alt="Chania">
+                    </div>
 
-                  <div class="item">
-                      <img src="assets/img/lasje2.jpg" alt="Chania">
-                  </div>
-              </div>
+                    <div class="item">
+                          <img src="assets/img/lasje4.jpg" alt="Chania">
+                    </div>
 
-              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <!--leve in desne kontrole-->
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
+                    <div class="item">
+                          <img src="assets/img/lasje3.jpg" alt="Chania">
+                    </div>
+              </div> <!--close carousel inner-->
+
+              <!-- Left and right controls -->
+    	        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
               </a>
 
               <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
               </a>
-          </div> <!--carousel slide close-->
+        </div> <!--close carousel slide-->
         <br>
         <br>
 
@@ -227,7 +233,7 @@
                           </div>
                     </div>
               </div>
-        </div>
+        </div> <!-- close container-->
 
         <div class="container">
             <hr class="featurette-divider">
@@ -258,10 +264,8 @@
 
               </div>
 
-
-
-            </div>
-          </div>
+            </div> <!--close row-->
+          </div> <!--close container-->
 
           <div class="navbar navbar-default navbar-fixed-bottom"> <!--footer-->
                       <p class="navbar-text pull-left">Site built by Domen Ošlaj</p>
