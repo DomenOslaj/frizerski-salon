@@ -85,3 +85,53 @@ body {
 .checkbox {
   margin-top: 20px;
 }
+
+.formcontrol-background {
+  width: 100%;
+  height: 570px;
+  background-color: #f9f8f8;
+  margin-top: 0px;
+  padding-top: 20px;
+  margin-bottom: 25px;
+}
+
+.aboutus-background {
+  background-color: black;
+  width: 100%;
+  height: 480px;
+  padding-top: 20px;
+}
+
+#aboutus-title {
+  text-align: center;
+  color: white;
+  font-family: serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.aboutus-name {
+  text-align: center;
+  color: #bfbdbd;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: .1em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.aboutus-role {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .1em;
+}
+
+.titles {
+  font-family: serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
