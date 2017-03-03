@@ -16,10 +16,15 @@
     </style>
   </head>
   <body>
-      <div class="navbar navbar-inverse navbar-static-top header-color">
+      <div class="header">
+            <h1 class="naslov">Hairdresser Mirko</h1>
+            <h3 class="podnaslov">Ljubljana</h3>
+
+      </div> <!--close header-->
+
+      <div class="navbar navbar-default navbar-static-top header-color">
             <div class="container">
                   <div class="navbar-header">
-                        <a href="#" class="navbar-brand">Hairdresser Mirko</a>
                         <button class="navbar-toggle" data-toggle="collapse" data-target = ".navHeaderCollapse"> <!--ta + naslednje 4 vrstice so menu tipka za telefone-->
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
@@ -28,18 +33,12 @@
                   </div>
 
                   <div class ="collapse navbar-collapse navHeaderCollapse">
-                        <ul class="nav navbar-nav navbar-right"> <!--napisi v headerju postavljeni desno-->
-                              <li class="active"><a href="#">Kaj nudimo</a></li>
-                              <li><a href="#">Naroči se</a></li>
-                              <li><a href="#">FAQ</a></li>
-                              <li><a href="#">O nas</a></li>
-                              <li>
-                                  <form class="navbar-form navbar-right" role="search"> <!--search engine-->
-                                      <div class="form-group">
-                                          <input type="text" class="form-control" placeholder="Iskalnik">
-                                      </div>
-                                      <button type="submit" class="btn btn-default">Išči</button>
-                                  </form>
+                        <ul class="nav navbar-nav"> <!--napisi v headerju postavljeni sredinsko-->
+                              <li class="active"><a href="#">KAJ NUDIMO</a></li>
+                              <li><a href="#" class="nav-margin">NAROČI SE</a></li>
+                              <li><a href="#"class="nav-margin">FAQ</a></li>
+                              <li><a href="#" class="nav-margin">O NAS</a></li>
+
                               </li>
                         </ul>
                   </div>
@@ -50,14 +49,13 @@
 
         <!--carousel galerija-->
         <br>
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
+          <div id="myCarousel" class="carousel-slide" data-ride="carousel">
+
               <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
               </ol>
 
-              <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
                   <div class="item active">
                       <img src="assets/img/lasje.jpg" alt="Frizer">
@@ -68,8 +66,7 @@
                   </div>
               </div>
 
-                  <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <!--leve in desne kontrole-->
                   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
               </a>
@@ -78,7 +75,7 @@
                   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
               </a>
-          </div>
+          </div> <!--carousel slide close-->
         <br>
         <br>
 
