@@ -18,6 +18,12 @@
 
 .nav-margin {
   margin-left: 30px;
+  color: #555555 !important;
+  font-weight: bolder;
+}
+
+.active {
+  font-weight: bolder;
 }
 
 .podnaslov {
@@ -36,7 +42,7 @@
 }
 
 .navbar-nav {
-  margin-left: 360px;
+  margin-left: 340px;
 }
 
 .form-control {
