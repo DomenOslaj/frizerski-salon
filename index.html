@@ -10,13 +10,13 @@
     <style>
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
-     width: 70%;
-     margin: auto;
+     width: 100%;
+     margin: auto
     }
     </style>
   </head>
   <body>
-      <div class="navbar navbar-inverse navbar-fixed-top header-color">
+      <div class="navbar navbar-inverse navbar-static-top header-color">
             <div class="container">
                   <div class="navbar-header">
                         <a href="#" class="navbar-brand">Hairdresser Mirko</a>
@@ -90,21 +90,21 @@
                           <center><img class="img-circle" src="assets/img/hair-cleaning.jpg" width="140" height="140">
                           <h3><a href="#">Nega las</a></h3>
                           <p>Zdrav in lep las se prične pri zdravem lasišču, zato nikakor ne smemo pozabiti na nego lasišča. Pazimo, da ne uporabljamo preveč agresivnih šamponov in prevročega fena. Lasišča med brisanjem ne drgnemo premočno, priporočljiva pa je nežna masaža lasišča, saj s tem stimuliramo prekrvavitev lasišča. V Lassaninih salonih lahko naredimo testiranje lasišča, na podlagi katerega izberemo pravilno nego oz. 'zdravljenje' lasišča.</p>
-                          <a href="#" class="btn btn-default pull-right">Preberi več</a></center>
+                          <a href="#" class="btn btn-info">Preberi več</a></center>
                     </div>
 
                     <div class="col-md-4">
                           <center><img class="img-circle" src="assets/img/hair-coloring.jpg" width="140" height="140">
                           <h3><a href="#">Barvanje</a></h3>
                           <p>Če potrebujete barvanje las je lepotni salon vsekakor prava izbira. Uporabljamo trendi tehnike barvanja in kvalitetne materiale. Če potrebujete barvanje las je lepotni salon vsekakor prava izbira. Uporabljamo trendi tehnike barvanja in kvalitetne materiale.</p>
-                          <a href="#" class="btn btn-default pull-right">Preberi več</a></center>
+                          <a href="#" class="btn btn-info">Preberi več</a></center>
                     </div>
 
                     <div class="col-md-4">
                           <center><img class="img-circle" src="assets/img/rezanje-las.jpg" width="140" height="140">
                           <h3><a href="#">Striženje</a></h3>
                           <p>Striženje je osnovano v skladu z modnimi smernicami za enostavnejše vzdrževanje pričeske tudi ob domači negi, medtem ko različne tehnike barvanja dopolnjujejo celostno podobo. Striženje je osnovano v skladu z modnimi smernicami za enostavnejše vzdrževanje pričeske tudi ob domači negi, medtem ko različne tehnike barvanja dopolnjujejo celostno podobo.</p>
-                          <a href="#" class="btn btn-default pull-right">Preberi več</a></center>
+                          <a href="#" class="btn btn-info">Preberi več</a></center>
                     </div>
               </div>
         </div>
@@ -122,6 +122,11 @@
                            <input style="email" class="form-control" placeholder="Email">
                            <input style="text" class="form-control" placeholder="Termin">
                            <textarea class="form-control" rows="8" placeholder="Ostalo (želje glede pričeske ipd.)"></textarea>
+
+                           <div class="checkbox">
+                                <label><input type="checkbox" value="">Strinjam se, da je mirko najboljši frizer.</label>
+                           </div>
+                           <a href="#" class="btn btn-danger pull-right">Pošlji</a></center>
 
                      </div>
 
@@ -165,6 +170,8 @@
                                   </tr>
                               </tbody>
                          </table>
+
+                         <p>* Ob praznikih velja nedeljski urnik.</p>
 
                      </div>
               </div>
@@ -259,8 +266,12 @@
 
 
             </div>
-      </div>
+          </div>
 
+          <div class="navbar navbar-default navbar-fixed-bottom"> <!--footer-->
+                      <p class="navbar-text pull-left">Site built by Domen Ošlaj</p>
+                      <a href ="#" class="navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>
+          </div>
 
   </body>
 
